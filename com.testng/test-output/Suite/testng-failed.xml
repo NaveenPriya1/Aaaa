@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng.sel.com.testng.GroupTest">
+        <methods>
+          <include name="loginwithFirefox"/>
+          <include name="launchFirefox"/>
+        </methods>
+      </class> <!-- com.testng.sel.com.testng.GroupTest -->
+      <class name="com.testng.sel.com.testng.Facebook">
+        <methods>
+          <include name="welcome"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testng.sel.com.testng.Facebook -->
+      <class name="com.testng.sel.com.testng.AssertionDemo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tittleTest"/>
+        </methods>
+      </class> <!-- com.testng.sel.com.testng.AssertionDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

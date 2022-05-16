@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.171">
+  <properties />
+  
+  
+            <testcase name="login" time="7.414" classname="com.testng.sel.com.testng.AssertionDemo" />
+                <testcase name="tittleTest" time="6.757" classname="com.testng.sel.com.testng.AssertionDemo" />
+      
+</testsuite>

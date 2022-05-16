@@ -1,0 +1,11 @@
+package com.javap;
+
+public class Person {
+	String name;
+
+	public Person(String name) {
+		super();
+		this.name = name;
+	}
+
+}
